@@ -18,6 +18,7 @@ function MedicalRecord({route, navigation}) {
     console.log(newValue);
     navigation.setParams({star: newValue});
     //nova rota para api
+
     setStar(!star);
   }
 
