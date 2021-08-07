@@ -38,6 +38,7 @@ const Play = () => {
 
   const HandlePauseRecord = () => {
     EnableHeight.setValue(0)
+
     setPlaying(false);
   }
 
