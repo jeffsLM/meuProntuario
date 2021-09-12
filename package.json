@@ -3,15 +3,18 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "adb reverse tcp:3333 tcp:3333 && react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@miblanchard/react-native-slider": "^2.0.1",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/slider": "^4.1.6",
     "axios": "^0.21.1",
+    "lottie-react-native": "^4.0.3",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-native": "0.64.2",
@@ -20,6 +23,7 @@
     "react-native-reanimated": "^2.2.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^3.4.0",
+    "react-native-slider": "^0.11.0",
     "react-native-vector-icons": "^8.1.0",
     "react-navigation": "^4.4.4",
     "react-navigation-stack": "^2.10.4",

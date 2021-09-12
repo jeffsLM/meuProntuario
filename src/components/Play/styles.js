@@ -6,7 +6,6 @@ export const Container = styled.View`
   flex-direction: row;
   width: 70%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-
   border-radius: 10px;
   margin: 5px;
   margin-bottom: 7px;
@@ -39,3 +38,4 @@ export const CurrentPlay = styled(Animated.View)`
 `;
 
 export const Duration = styled.Text``;
+

@@ -6,6 +6,8 @@ const  Card = styled.View`
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   margin-top: 10px;
-  padding:10px
+  padding:20px;
+  display: flex;
+  justify-content:space-around;
 `;
 export default Card;
